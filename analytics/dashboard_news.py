@@ -9,7 +9,8 @@ from collections import defaultdict
 SX_CLASS_NAME = ["MENTION", "BAD", "GOOD", "MUSIC", "ENT", "CONTRACT", "AD", "RIP", "NO"]
 
 os.environ["STREAMLIT_THEME_BASE"] = "dark"
-
+def _fnumber(num):
+    return "{:,}".format(num)
 # ------------------------------------------------------------------------------------------------------------------------
 def _generate_data_list(json_data):
     # 클래스 이름 정의
@@ -202,7 +203,7 @@ def all_dashboard_news(_singer):
 # ------------------------------------------------------------------------------------------------------------------------
 def year_dashboard(_singer, _selected_year, susu):
     head = f'{_selected_year}년'
-    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {susu} 개 )</span></h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {_fnumber(susu)} 개 )</span></h3>", unsafe_allow_html=True)
     names = SX_CLASS_NAME
     fmname = f'./jsondata/month_{_singer}.json'
     with open(fmname, "r", encoding="utf-8") as file:
@@ -244,7 +245,7 @@ def year_dashboard(_singer, _selected_year, susu):
 # ------------------------------------------------------------------------------------------------------------------------
 def month_dashboard(_singer, susu, _year, _month):
     head = f'{_year} {_month}'
-    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {susu} 개 )</span></h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {_fnumber(susu)} 개 )</span></h3>", unsafe_allow_html=True)
     names = SX_CLASS_NAME
     fdname = f'./jsondata/day_{_singer}.json'
     with open(fdname, "r", encoding="utf-8") as file:
