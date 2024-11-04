@@ -1,0 +1,82 @@
+[
+    {
+        "2020": {
+            "total_articles": 2250,
+            "class_counts": {
+                "class_MENTION": 1173,
+                "class_BAD": 22,
+                "class_GOOD": 32,
+                "class_MUSIC": 223,
+                "class_ENT": 712,
+                "class_CONTRACT": 33,
+                "class_AD": 12,
+                "class_RIP": 0,
+                "class_NO": 43
+            }
+        }
+    },
+    {
+        "2021": {
+            "total_articles": 2523,
+            "class_counts": {
+                "class_MENTION": 1187,
+                "class_BAD": 12,
+                "class_GOOD": 150,
+                "class_MUSIC": 171,
+                "class_ENT": 942,
+                "class_CONTRACT": 22,
+                "class_AD": 3,
+                "class_RIP": 1,
+                "class_NO": 35
+            }
+        }
+    },
+    {
+        "2022": {
+            "total_articles": 2805,
+            "class_counts": {
+                "class_MENTION": 829,
+                "class_BAD": 14,
+                "class_GOOD": 81,
+                "class_MUSIC": 490,
+                "class_ENT": 1291,
+                "class_CONTRACT": 69,
+                "class_AD": 10,
+                "class_RIP": 0,
+                "class_NO": 21
+            }
+        }
+    },
+    {
+        "2023": {
+            "total_articles": 1989,
+            "class_counts": {
+                "class_MENTION": 584,
+                "class_BAD": 53,
+                "class_GOOD": 54,
+                "class_MUSIC": 773,
+                "class_ENT": 455,
+                "class_CONTRACT": 35,
+                "class_AD": 5,
+                "class_RIP": 7,
+                "class_NO": 23
+            }
+        }
+    },
+    {
+        "2024": {
+            "total_articles": 3136,
+            "class_counts": {
+                "class_MENTION": 1232,
+                "class_BAD": 13,
+                "class_GOOD": 89,
+                "class_MUSIC": 766,
+                "class_ENT": 950,
+                "class_CONTRACT": 6,
+                "class_AD": 23,
+                "class_RIP": 9,
+                "class_NO": 48
+            }
+        }
+    }
+]

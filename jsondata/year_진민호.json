@@ -1,0 +1,82 @@
+[
+    {
+        "2020": {
+            "total_articles": 204,
+            "class_counts": {
+                "class_MENTION": 90,
+                "class_BAD": 0,
+                "class_GOOD": 1,
+                "class_MUSIC": 58,
+                "class_ENT": 54,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2021": {
+            "total_articles": 177,
+            "class_counts": {
+                "class_MENTION": 36,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 114,
+                "class_ENT": 21,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 6
+            }
+        }
+    },
+    {
+        "2022": {
+            "total_articles": 163,
+            "class_counts": {
+                "class_MENTION": 42,
+                "class_BAD": 0,
+                "class_GOOD": 2,
+                "class_MUSIC": 106,
+                "class_ENT": 13,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023": {
+            "total_articles": 135,
+            "class_counts": {
+                "class_MENTION": 11,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 102,
+                "class_ENT": 21,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2024": {
+            "total_articles": 59,
+            "class_counts": {
+                "class_MENTION": 39,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 6,
+                "class_ENT": 0,
+                "class_CONTRACT": 13,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    }
+]

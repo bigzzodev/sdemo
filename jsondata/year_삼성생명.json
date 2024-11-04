@@ -1,0 +1,87 @@
+[
+    {
+        "2020": {
+            "total_articles": 28164,
+            "class_counts": {
+                "class_INSURANCE": 1621,
+                "class_BUSINESS": 3115,
+                "class_ESG": 2284,
+                "class_COMPLIANCE": 5692,
+                "class_ORGANIZATION": 1931,
+                "class_MARKET": 2217,
+                "class_TECHINNOV": 519,
+                "class_SPORTS": 5572,
+                "class_AD": 73,
+                "class_NO": 5140
+            }
+        }
+    },
+    {
+        "2021": {
+            "total_articles": 33888,
+            "class_counts": {
+                "class_INSURANCE": 1777,
+                "class_BUSINESS": 3417,
+                "class_ESG": 2025,
+                "class_COMPLIANCE": 3904,
+                "class_ORGANIZATION": 1567,
+                "class_MARKET": 1865,
+                "class_TECHINNOV": 792,
+                "class_SPORTS": 13626,
+                "class_AD": 136,
+                "class_NO": 4779
+            }
+        }
+    },
+    {
+        "2022": {
+            "total_articles": 29657,
+            "class_counts": {
+                "class_INSURANCE": 2194,
+                "class_BUSINESS": 2691,
+                "class_ESG": 1573,
+                "class_COMPLIANCE": 3145,
+                "class_ORGANIZATION": 1642,
+                "class_MARKET": 1642,
+                "class_TECHINNOV": 872,
+                "class_SPORTS": 11524,
+                "class_AD": 192,
+                "class_NO": 4182
+            }
+        }
+    },
+    {
+        "2023": {
+            "total_articles": 29057,
+            "class_counts": {
+                "class_INSURANCE": 2081,
+                "class_BUSINESS": 3052,
+                "class_ESG": 2275,
+                "class_COMPLIANCE": 2485,
+                "class_ORGANIZATION": 2097,
+                "class_MARKET": 1939,
+                "class_TECHINNOV": 1079,
+                "class_SPORTS": 10700,
+                "class_AD": 178,
+                "class_NO": 3171
+            }
+        }
+    },
+    {
+        "2024": {
+            "total_articles": 28513,
+            "class_counts": {
+                "class_INSURANCE": 3540,
+                "class_BUSINESS": 3383,
+                "class_ESG": 1217,
+                "class_COMPLIANCE": 1691,
+                "class_ORGANIZATION": 1666,
+                "class_MARKET": 3240,
+                "class_TECHINNOV": 754,
+                "class_SPORTS": 9860,
+                "class_AD": 241,
+                "class_NO": 2921
+            }
+        }
+    }
+]

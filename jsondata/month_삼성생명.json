@@ -1,0 +1,1005 @@
+[
+    {
+        "2020-01": {
+            "total_articles": 2974,
+            "class_counts": {
+                "class_INSURANCE": 61,
+                "class_BUSINESS": 172,
+                "class_ESG": 126,
+                "class_COMPLIANCE": 547,
+                "class_ORGANIZATION": 529,
+                "class_MARKET": 263,
+                "class_TECHINNOV": 27,
+                "class_SPORTS": 920,
+                "class_AD": 2,
+                "class_NO": 327
+            }
+        }
+    },
+    {
+        "2020-02": {
+            "total_articles": 2307,
+            "class_counts": {
+                "class_INSURANCE": 146,
+                "class_BUSINESS": 233,
+                "class_ESG": 188,
+                "class_COMPLIANCE": 582,
+                "class_ORGANIZATION": 98,
+                "class_MARKET": 158,
+                "class_TECHINNOV": 2,
+                "class_SPORTS": 460,
+                "class_AD": 3,
+                "class_NO": 437
+            }
+        }
+    },
+    {
+        "2020-03": {
+            "total_articles": 3519,
+            "class_counts": {
+                "class_INSURANCE": 192,
+                "class_BUSINESS": 384,
+                "class_ESG": 423,
+                "class_COMPLIANCE": 480,
+                "class_ORGANIZATION": 164,
+                "class_MARKET": 315,
+                "class_TECHINNOV": 56,
+                "class_SPORTS": 802,
+                "class_AD": 2,
+                "class_NO": 701
+            }
+        }
+    },
+    {
+        "2020-04": {
+            "total_articles": 1526,
+            "class_counts": {
+                "class_INSURANCE": 121,
+                "class_BUSINESS": 129,
+                "class_ESG": 70,
+                "class_COMPLIANCE": 204,
+                "class_ORGANIZATION": 95,
+                "class_MARKET": 330,
+                "class_TECHINNOV": 14,
+                "class_SPORTS": 236,
+                "class_AD": 6,
+                "class_NO": 321
+            }
+        }
+    },
+    {
+        "2020-05": {
+            "total_articles": 1743,
+            "class_counts": {
+                "class_INSURANCE": 195,
+                "class_BUSINESS": 264,
+                "class_ESG": 106,
+                "class_COMPLIANCE": 498,
+                "class_ORGANIZATION": 76,
+                "class_MARKET": 119,
+                "class_TECHINNOV": 20,
+                "class_SPORTS": 80,
+                "class_AD": 7,
+                "class_NO": 378
+            }
+        }
+    },
+    {
+        "2020-06": {
+            "total_articles": 1666,
+            "class_counts": {
+                "class_INSURANCE": 61,
+                "class_BUSINESS": 180,
+                "class_ESG": 113,
+                "class_COMPLIANCE": 343,
+                "class_ORGANIZATION": 197,
+                "class_MARKET": 147,
+                "class_TECHINNOV": 23,
+                "class_SPORTS": 157,
+                "class_AD": 3,
+                "class_NO": 442
+            }
+        }
+    },
+    {
+        "2020-07": {
+            "total_articles": 1228,
+            "class_counts": {
+                "class_INSURANCE": 175,
+                "class_BUSINESS": 152,
+                "class_ESG": 79,
+                "class_COMPLIANCE": 219,
+                "class_ORGANIZATION": 61,
+                "class_MARKET": 162,
+                "class_TECHINNOV": 16,
+                "class_SPORTS": 126,
+                "class_AD": 26,
+                "class_NO": 212
+            }
+        }
+    },
+    {
+        "2020-08": {
+            "total_articles": 1846,
+            "class_counts": {
+                "class_INSURANCE": 159,
+                "class_BUSINESS": 299,
+                "class_ESG": 332,
+                "class_COMPLIANCE": 306,
+                "class_ORGANIZATION": 89,
+                "class_MARKET": 180,
+                "class_TECHINNOV": 5,
+                "class_SPORTS": 263,
+                "class_AD": 4,
+                "class_NO": 209
+            }
+        }
+    },
+    {
+        "2020-09": {
+            "total_articles": 1500,
+            "class_counts": {
+                "class_INSURANCE": 112,
+                "class_BUSINESS": 109,
+                "class_ESG": 114,
+                "class_COMPLIANCE": 476,
+                "class_ORGANIZATION": 43,
+                "class_MARKET": 128,
+                "class_TECHINNOV": 81,
+                "class_SPORTS": 165,
+                "class_AD": 1,
+                "class_NO": 271
+            }
+        }
+    },
+    {
+        "2020-10": {
+            "total_articles": 3329,
+            "class_counts": {
+                "class_INSURANCE": 180,
+                "class_BUSINESS": 543,
+                "class_ESG": 133,
+                "class_COMPLIANCE": 932,
+                "class_ORGANIZATION": 46,
+                "class_MARKET": 164,
+                "class_TECHINNOV": 35,
+                "class_SPORTS": 543,
+                "class_AD": 3,
+                "class_NO": 750
+            }
+        }
+    },
+    {
+        "2020-11": {
+            "total_articles": 2766,
+            "class_counts": {
+                "class_INSURANCE": 162,
+                "class_BUSINESS": 343,
+                "class_ESG": 323,
+                "class_COMPLIANCE": 404,
+                "class_ORGANIZATION": 153,
+                "class_MARKET": 96,
+                "class_TECHINNOV": 172,
+                "class_SPORTS": 689,
+                "class_AD": 2,
+                "class_NO": 422
+            }
+        }
+    },
+    {
+        "2020-12": {
+            "total_articles": 3760,
+            "class_counts": {
+                "class_INSURANCE": 57,
+                "class_BUSINESS": 307,
+                "class_ESG": 277,
+                "class_COMPLIANCE": 701,
+                "class_ORGANIZATION": 380,
+                "class_MARKET": 155,
+                "class_TECHINNOV": 68,
+                "class_SPORTS": 1131,
+                "class_AD": 14,
+                "class_NO": 670
+            }
+        }
+    },
+    {
+        "2021-01": {
+            "total_articles": 2967,
+            "class_counts": {
+                "class_INSURANCE": 209,
+                "class_BUSINESS": 156,
+                "class_ESG": 147,
+                "class_COMPLIANCE": 633,
+                "class_ORGANIZATION": 164,
+                "class_MARKET": 162,
+                "class_TECHINNOV": 83,
+                "class_SPORTS": 873,
+                "class_AD": 4,
+                "class_NO": 536
+            }
+        }
+    },
+    {
+        "2021-02": {
+            "total_articles": 2668,
+            "class_counts": {
+                "class_INSURANCE": 124,
+                "class_BUSINESS": 283,
+                "class_ESG": 162,
+                "class_COMPLIANCE": 236,
+                "class_ORGANIZATION": 84,
+                "class_MARKET": 118,
+                "class_TECHINNOV": 45,
+                "class_SPORTS": 1223,
+                "class_AD": 13,
+                "class_NO": 380
+            }
+        }
+    },
+    {
+        "2021-03": {
+            "total_articles": 5201,
+            "class_counts": {
+                "class_INSURANCE": 217,
+                "class_BUSINESS": 245,
+                "class_ESG": 110,
+                "class_COMPLIANCE": 276,
+                "class_ORGANIZATION": 148,
+                "class_MARKET": 186,
+                "class_TECHINNOV": 27,
+                "class_SPORTS": 3191,
+                "class_AD": 0,
+                "class_NO": 801
+            }
+        }
+    },
+    {
+        "2021-04": {
+            "total_articles": 2457,
+            "class_counts": {
+                "class_INSURANCE": 118,
+                "class_BUSINESS": 641,
+                "class_ESG": 494,
+                "class_COMPLIANCE": 362,
+                "class_ORGANIZATION": 64,
+                "class_MARKET": 157,
+                "class_TECHINNOV": 35,
+                "class_SPORTS": 234,
+                "class_AD": 3,
+                "class_NO": 349
+            }
+        }
+    },
+    {
+        "2021-05": {
+            "total_articles": 2021,
+            "class_counts": {
+                "class_INSURANCE": 218,
+                "class_BUSINESS": 655,
+                "class_ESG": 121,
+                "class_COMPLIANCE": 222,
+                "class_ORGANIZATION": 81,
+                "class_MARKET": 189,
+                "class_TECHINNOV": 87,
+                "class_SPORTS": 180,
+                "class_AD": 6,
+                "class_NO": 262
+            }
+        }
+    },
+    {
+        "2021-06": {
+            "total_articles": 1467,
+            "class_counts": {
+                "class_INSURANCE": 128,
+                "class_BUSINESS": 145,
+                "class_ESG": 150,
+                "class_COMPLIANCE": 188,
+                "class_ORGANIZATION": 33,
+                "class_MARKET": 212,
+                "class_TECHINNOV": 107,
+                "class_SPORTS": 178,
+                "class_AD": 19,
+                "class_NO": 307
+            }
+        }
+    },
+    {
+        "2021-07": {
+            "total_articles": 2717,
+            "class_counts": {
+                "class_INSURANCE": 172,
+                "class_BUSINESS": 165,
+                "class_ESG": 69,
+                "class_COMPLIANCE": 569,
+                "class_ORGANIZATION": 42,
+                "class_MARKET": 134,
+                "class_TECHINNOV": 59,
+                "class_SPORTS": 1195,
+                "class_AD": 7,
+                "class_NO": 305
+            }
+        }
+    },
+    {
+        "2021-08": {
+            "total_articles": 2292,
+            "class_counts": {
+                "class_INSURANCE": 161,
+                "class_BUSINESS": 257,
+                "class_ESG": 97,
+                "class_COMPLIANCE": 282,
+                "class_ORGANIZATION": 65,
+                "class_MARKET": 127,
+                "class_TECHINNOV": 27,
+                "class_SPORTS": 897,
+                "class_AD": 65,
+                "class_NO": 314
+            }
+        }
+    },
+    {
+        "2021-09": {
+            "total_articles": 1326,
+            "class_counts": {
+                "class_INSURANCE": 124,
+                "class_BUSINESS": 88,
+                "class_ESG": 110,
+                "class_COMPLIANCE": 332,
+                "class_ORGANIZATION": 114,
+                "class_MARKET": 94,
+                "class_TECHINNOV": 35,
+                "class_SPORTS": 286,
+                "class_AD": 1,
+                "class_NO": 142
+            }
+        }
+    },
+    {
+        "2021-10": {
+            "total_articles": 2615,
+            "class_counts": {
+                "class_INSURANCE": 183,
+                "class_BUSINESS": 220,
+                "class_ESG": 177,
+                "class_COMPLIANCE": 403,
+                "class_ORGANIZATION": 59,
+                "class_MARKET": 170,
+                "class_TECHINNOV": 153,
+                "class_SPORTS": 936,
+                "class_AD": 9,
+                "class_NO": 305
+            }
+        }
+    },
+    {
+        "2021-11": {
+            "total_articles": 4099,
+            "class_counts": {
+                "class_INSURANCE": 72,
+                "class_BUSINESS": 357,
+                "class_ESG": 131,
+                "class_COMPLIANCE": 175,
+                "class_ORGANIZATION": 108,
+                "class_MARKET": 137,
+                "class_TECHINNOV": 86,
+                "class_SPORTS": 2443,
+                "class_AD": 8,
+                "class_NO": 582
+            }
+        }
+    },
+    {
+        "2021-12": {
+            "total_articles": 4058,
+            "class_counts": {
+                "class_INSURANCE": 51,
+                "class_BUSINESS": 205,
+                "class_ESG": 257,
+                "class_COMPLIANCE": 226,
+                "class_ORGANIZATION": 605,
+                "class_MARKET": 179,
+                "class_TECHINNOV": 48,
+                "class_SPORTS": 1990,
+                "class_AD": 1,
+                "class_NO": 496
+            }
+        }
+    },
+    {
+        "2022-01": {
+            "total_articles": 4624,
+            "class_counts": {
+                "class_INSURANCE": 198,
+                "class_BUSINESS": 146,
+                "class_ESG": 45,
+                "class_COMPLIANCE": 407,
+                "class_ORGANIZATION": 49,
+                "class_MARKET": 179,
+                "class_TECHINNOV": 143,
+                "class_SPORTS": 2553,
+                "class_AD": 34,
+                "class_NO": 870
+            }
+        }
+    },
+    {
+        "2022-02": {
+            "total_articles": 1722,
+            "class_counts": {
+                "class_INSURANCE": 93,
+                "class_BUSINESS": 231,
+                "class_ESG": 93,
+                "class_COMPLIANCE": 380,
+                "class_ORGANIZATION": 90,
+                "class_MARKET": 92,
+                "class_TECHINNOV": 42,
+                "class_SPORTS": 534,
+                "class_AD": 3,
+                "class_NO": 164
+            }
+        }
+    },
+    {
+        "2022-03": {
+            "total_articles": 3121,
+            "class_counts": {
+                "class_INSURANCE": 129,
+                "class_BUSINESS": 302,
+                "class_ESG": 198,
+                "class_COMPLIANCE": 67,
+                "class_ORGANIZATION": 182,
+                "class_MARKET": 111,
+                "class_TECHINNOV": 65,
+                "class_SPORTS": 1797,
+                "class_AD": 4,
+                "class_NO": 266
+            }
+        }
+    },
+    {
+        "2022-04": {
+            "total_articles": 3070,
+            "class_counts": {
+                "class_INSURANCE": 284,
+                "class_BUSINESS": 269,
+                "class_ESG": 75,
+                "class_COMPLIANCE": 172,
+                "class_ORGANIZATION": 52,
+                "class_MARKET": 163,
+                "class_TECHINNOV": 192,
+                "class_SPORTS": 1521,
+                "class_AD": 6,
+                "class_NO": 336
+            }
+        }
+    },
+    {
+        "2022-05": {
+            "total_articles": 1542,
+            "class_counts": {
+                "class_INSURANCE": 233,
+                "class_BUSINESS": 291,
+                "class_ESG": 65,
+                "class_COMPLIANCE": 132,
+                "class_ORGANIZATION": 43,
+                "class_MARKET": 143,
+                "class_TECHINNOV": 92,
+                "class_SPORTS": 335,
+                "class_AD": 14,
+                "class_NO": 194
+            }
+        }
+    },
+    {
+        "2022-06": {
+            "total_articles": 1477,
+            "class_counts": {
+                "class_INSURANCE": 164,
+                "class_BUSINESS": 126,
+                "class_ESG": 105,
+                "class_COMPLIANCE": 336,
+                "class_ORGANIZATION": 124,
+                "class_MARKET": 127,
+                "class_TECHINNOV": 75,
+                "class_SPORTS": 248,
+                "class_AD": 28,
+                "class_NO": 144
+            }
+        }
+    },
+    {
+        "2022-07": {
+            "total_articles": 1233,
+            "class_counts": {
+                "class_INSURANCE": 224,
+                "class_BUSINESS": 121,
+                "class_ESG": 37,
+                "class_COMPLIANCE": 153,
+                "class_ORGANIZATION": 32,
+                "class_MARKET": 116,
+                "class_TECHINNOV": 124,
+                "class_SPORTS": 295,
+                "class_AD": 6,
+                "class_NO": 125
+            }
+        }
+    },
+    {
+        "2022-08": {
+            "total_articles": 2264,
+            "class_counts": {
+                "class_INSURANCE": 284,
+                "class_BUSINESS": 305,
+                "class_ESG": 290,
+                "class_COMPLIANCE": 237,
+                "class_ORGANIZATION": 57,
+                "class_MARKET": 118,
+                "class_TECHINNOV": 40,
+                "class_SPORTS": 636,
+                "class_AD": 4,
+                "class_NO": 293
+            }
+        }
+    },
+    {
+        "2022-09": {
+            "total_articles": 2152,
+            "class_counts": {
+                "class_INSURANCE": 301,
+                "class_BUSINESS": 198,
+                "class_ESG": 84,
+                "class_COMPLIANCE": 190,
+                "class_ORGANIZATION": 252,
+                "class_MARKET": 127,
+                "class_TECHINNOV": 47,
+                "class_SPORTS": 512,
+                "class_AD": 49,
+                "class_NO": 392
+            }
+        }
+    },
+    {
+        "2022-10": {
+            "total_articles": 2451,
+            "class_counts": {
+                "class_INSURANCE": 96,
+                "class_BUSINESS": 138,
+                "class_ESG": 95,
+                "class_COMPLIANCE": 335,
+                "class_ORGANIZATION": 107,
+                "class_MARKET": 135,
+                "class_TECHINNOV": 15,
+                "class_SPORTS": 716,
+                "class_AD": 9,
+                "class_NO": 805
+            }
+        }
+    },
+    {
+        "2022-11": {
+            "total_articles": 2833,
+            "class_counts": {
+                "class_INSURANCE": 129,
+                "class_BUSINESS": 331,
+                "class_ESG": 206,
+                "class_COMPLIANCE": 450,
+                "class_ORGANIZATION": 105,
+                "class_MARKET": 160,
+                "class_TECHINNOV": 13,
+                "class_SPORTS": 1162,
+                "class_AD": 33,
+                "class_NO": 244
+            }
+        }
+    },
+    {
+        "2022-12": {
+            "total_articles": 3168,
+            "class_counts": {
+                "class_INSURANCE": 59,
+                "class_BUSINESS": 233,
+                "class_ESG": 280,
+                "class_COMPLIANCE": 286,
+                "class_ORGANIZATION": 549,
+                "class_MARKET": 171,
+                "class_TECHINNOV": 24,
+                "class_SPORTS": 1215,
+                "class_AD": 2,
+                "class_NO": 349
+            }
+        }
+    },
+    {
+        "2023-01": {
+            "total_articles": 2107,
+            "class_counts": {
+                "class_INSURANCE": 85,
+                "class_BUSINESS": 136,
+                "class_ESG": 124,
+                "class_COMPLIANCE": 135,
+                "class_ORGANIZATION": 73,
+                "class_MARKET": 183,
+                "class_TECHINNOV": 19,
+                "class_SPORTS": 1067,
+                "class_AD": 0,
+                "class_NO": 285
+            }
+        }
+    },
+    {
+        "2023-02": {
+            "total_articles": 3265,
+            "class_counts": {
+                "class_INSURANCE": 34,
+                "class_BUSINESS": 414,
+                "class_ESG": 113,
+                "class_COMPLIANCE": 261,
+                "class_ORGANIZATION": 118,
+                "class_MARKET": 176,
+                "class_TECHINNOV": 50,
+                "class_SPORTS": 1842,
+                "class_AD": 23,
+                "class_NO": 234
+            }
+        }
+    },
+    {
+        "2023-03": {
+            "total_articles": 3419,
+            "class_counts": {
+                "class_INSURANCE": 140,
+                "class_BUSINESS": 588,
+                "class_ESG": 159,
+                "class_COMPLIANCE": 136,
+                "class_ORGANIZATION": 316,
+                "class_MARKET": 157,
+                "class_TECHINNOV": 113,
+                "class_SPORTS": 1415,
+                "class_AD": 0,
+                "class_NO": 395
+            }
+        }
+    },
+    {
+        "2023-04": {
+            "total_articles": 1940,
+            "class_counts": {
+                "class_INSURANCE": 281,
+                "class_BUSINESS": 385,
+                "class_ESG": 218,
+                "class_COMPLIANCE": 160,
+                "class_ORGANIZATION": 66,
+                "class_MARKET": 173,
+                "class_TECHINNOV": 175,
+                "class_SPORTS": 300,
+                "class_AD": 2,
+                "class_NO": 180
+            }
+        }
+    },
+    {
+        "2023-05": {
+            "total_articles": 1707,
+            "class_counts": {
+                "class_INSURANCE": 94,
+                "class_BUSINESS": 201,
+                "class_ESG": 235,
+                "class_COMPLIANCE": 252,
+                "class_ORGANIZATION": 19,
+                "class_MARKET": 135,
+                "class_TECHINNOV": 134,
+                "class_SPORTS": 476,
+                "class_AD": 9,
+                "class_NO": 152
+            }
+        }
+    },
+    {
+        "2023-06": {
+            "total_articles": 1409,
+            "class_counts": {
+                "class_INSURANCE": 131,
+                "class_BUSINESS": 137,
+                "class_ESG": 62,
+                "class_COMPLIANCE": 157,
+                "class_ORGANIZATION": 12,
+                "class_MARKET": 132,
+                "class_TECHINNOV": 58,
+                "class_SPORTS": 467,
+                "class_AD": 55,
+                "class_NO": 198
+            }
+        }
+    },
+    {
+        "2023-07": {
+            "total_articles": 1679,
+            "class_counts": {
+                "class_INSURANCE": 136,
+                "class_BUSINESS": 82,
+                "class_ESG": 270,
+                "class_COMPLIANCE": 171,
+                "class_ORGANIZATION": 82,
+                "class_MARKET": 210,
+                "class_TECHINNOV": 104,
+                "class_SPORTS": 428,
+                "class_AD": 5,
+                "class_NO": 191
+            }
+        }
+    },
+    {
+        "2023-08": {
+            "total_articles": 3230,
+            "class_counts": {
+                "class_INSURANCE": 309,
+                "class_BUSINESS": 307,
+                "class_ESG": 166,
+                "class_COMPLIANCE": 721,
+                "class_ORGANIZATION": 198,
+                "class_MARKET": 148,
+                "class_TECHINNOV": 98,
+                "class_SPORTS": 766,
+                "class_AD": 57,
+                "class_NO": 460
+            }
+        }
+    },
+    {
+        "2023-09": {
+            "total_articles": 2043,
+            "class_counts": {
+                "class_INSURANCE": 332,
+                "class_BUSINESS": 164,
+                "class_ESG": 231,
+                "class_COMPLIANCE": 205,
+                "class_ORGANIZATION": 169,
+                "class_MARKET": 163,
+                "class_TECHINNOV": 28,
+                "class_SPORTS": 482,
+                "class_AD": 4,
+                "class_NO": 265
+            }
+        }
+    },
+    {
+        "2023-10": {
+            "total_articles": 2640,
+            "class_counts": {
+                "class_INSURANCE": 187,
+                "class_BUSINESS": 88,
+                "class_ESG": 123,
+                "class_COMPLIANCE": 125,
+                "class_ORGANIZATION": 160,
+                "class_MARKET": 213,
+                "class_TECHINNOV": 206,
+                "class_SPORTS": 1278,
+                "class_AD": 11,
+                "class_NO": 249
+            }
+        }
+    },
+    {
+        "2023-11": {
+            "total_articles": 2718,
+            "class_counts": {
+                "class_INSURANCE": 267,
+                "class_BUSINESS": 371,
+                "class_ESG": 281,
+                "class_COMPLIANCE": 75,
+                "class_ORGANIZATION": 227,
+                "class_MARKET": 144,
+                "class_TECHINNOV": 35,
+                "class_SPORTS": 1015,
+                "class_AD": 8,
+                "class_NO": 295
+            }
+        }
+    },
+    {
+        "2023-12": {
+            "total_articles": 2900,
+            "class_counts": {
+                "class_INSURANCE": 85,
+                "class_BUSINESS": 179,
+                "class_ESG": 293,
+                "class_COMPLIANCE": 87,
+                "class_ORGANIZATION": 657,
+                "class_MARKET": 105,
+                "class_TECHINNOV": 59,
+                "class_SPORTS": 1164,
+                "class_AD": 4,
+                "class_NO": 267
+            }
+        }
+    },
+    {
+        "2024-01": {
+            "total_articles": 3171,
+            "class_counts": {
+                "class_INSURANCE": 400,
+                "class_BUSINESS": 357,
+                "class_ESG": 368,
+                "class_COMPLIANCE": 127,
+                "class_ORGANIZATION": 191,
+                "class_MARKET": 263,
+                "class_TECHINNOV": 46,
+                "class_SPORTS": 1067,
+                "class_AD": 7,
+                "class_NO": 345
+            }
+        }
+    },
+    {
+        "2024-02": {
+            "total_articles": 3036,
+            "class_counts": {
+                "class_INSURANCE": 230,
+                "class_BUSINESS": 471,
+                "class_ESG": 40,
+                "class_COMPLIANCE": 278,
+                "class_ORGANIZATION": 90,
+                "class_MARKET": 486,
+                "class_TECHINNOV": 62,
+                "class_SPORTS": 1143,
+                "class_AD": 1,
+                "class_NO": 235
+            }
+        }
+    },
+    {
+        "2024-03": {
+            "total_articles": 3265,
+            "class_counts": {
+                "class_INSURANCE": 379,
+                "class_BUSINESS": 487,
+                "class_ESG": 134,
+                "class_COMPLIANCE": 67,
+                "class_ORGANIZATION": 452,
+                "class_MARKET": 369,
+                "class_TECHINNOV": 48,
+                "class_SPORTS": 1036,
+                "class_AD": 2,
+                "class_NO": 291
+            }
+        }
+    },
+    {
+        "2024-04": {
+            "total_articles": 2034,
+            "class_counts": {
+                "class_INSURANCE": 400,
+                "class_BUSINESS": 219,
+                "class_ESG": 46,
+                "class_COMPLIANCE": 98,
+                "class_ORGANIZATION": 166,
+                "class_MARKET": 354,
+                "class_TECHINNOV": 25,
+                "class_SPORTS": 442,
+                "class_AD": 8,
+                "class_NO": 276
+            }
+        }
+    },
+    {
+        "2024-05": {
+            "total_articles": 1845,
+            "class_counts": {
+                "class_INSURANCE": 300,
+                "class_BUSINESS": 445,
+                "class_ESG": 33,
+                "class_COMPLIANCE": 105,
+                "class_ORGANIZATION": 77,
+                "class_MARKET": 401,
+                "class_TECHINNOV": 67,
+                "class_SPORTS": 218,
+                "class_AD": 2,
+                "class_NO": 197
+            }
+        }
+    },
+    {
+        "2024-06": {
+            "total_articles": 2286,
+            "class_counts": {
+                "class_INSURANCE": 422,
+                "class_BUSINESS": 411,
+                "class_ESG": 143,
+                "class_COMPLIANCE": 101,
+                "class_ORGANIZATION": 29,
+                "class_MARKET": 172,
+                "class_TECHINNOV": 139,
+                "class_SPORTS": 518,
+                "class_AD": 124,
+                "class_NO": 227
+            }
+        }
+    },
+    {
+        "2024-07": {
+            "total_articles": 2420,
+            "class_counts": {
+                "class_INSURANCE": 450,
+                "class_BUSINESS": 248,
+                "class_ESG": 81,
+                "class_COMPLIANCE": 298,
+                "class_ORGANIZATION": 142,
+                "class_MARKET": 258,
+                "class_TECHINNOV": 53,
+                "class_SPORTS": 578,
+                "class_AD": 11,
+                "class_NO": 301
+            }
+        }
+    },
+    {
+        "2024-08": {
+            "total_articles": 5166,
+            "class_counts": {
+                "class_INSURANCE": 251,
+                "class_BUSINESS": 340,
+                "class_ESG": 86,
+                "class_COMPLIANCE": 211,
+                "class_ORGANIZATION": 148,
+                "class_MARKET": 282,
+                "class_TECHINNOV": 91,
+                "class_SPORTS": 3408,
+                "class_AD": 1,
+                "class_NO": 348
+            }
+        }
+    },
+    {
+        "2024-09": {
+            "total_articles": 2348,
+            "class_counts": {
+                "class_INSURANCE": 359,
+                "class_BUSINESS": 228,
+                "class_ESG": 125,
+                "class_COMPLIANCE": 170,
+                "class_ORGANIZATION": 247,
+                "class_MARKET": 360,
+                "class_TECHINNOV": 119,
+                "class_SPORTS": 436,
+                "class_AD": 4,
+                "class_NO": 300
+            }
+        }
+    },
+    {
+        "2024-10": {
+            "total_articles": 2782,
+            "class_counts": {
+                "class_INSURANCE": 344,
+                "class_BUSINESS": 175,
+                "class_ESG": 114,
+                "class_COMPLIANCE": 233,
+                "class_ORGANIZATION": 123,
+                "class_MARKET": 286,
+                "class_TECHINNOV": 99,
+                "class_SPORTS": 941,
+                "class_AD": 80,
+                "class_NO": 387
+            }
+        }
+    },
+    {
+        "2024-11": {
+            "total_articles": 160,
+            "class_counts": {
+                "class_INSURANCE": 5,
+                "class_BUSINESS": 2,
+                "class_ESG": 47,
+                "class_COMPLIANCE": 3,
+                "class_ORGANIZATION": 1,
+                "class_MARKET": 9,
+                "class_TECHINNOV": 5,
+                "class_SPORTS": 73,
+                "class_AD": 1,
+                "class_NO": 14
+            }
+        }
+    }
+]

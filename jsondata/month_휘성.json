@@ -1,0 +1,930 @@
+[
+    {
+        "2020-01": {
+            "total_articles": 37,
+            "class_counts": {
+                "class_MENTION": 31,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 6,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-02": {
+            "total_articles": 47,
+            "class_counts": {
+                "class_MENTION": 36,
+                "class_BAD": 1,
+                "class_GOOD": 1,
+                "class_MUSIC": 3,
+                "class_ENT": 6,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-03": {
+            "total_articles": 235,
+            "class_counts": {
+                "class_MENTION": 39,
+                "class_BAD": 184,
+                "class_GOOD": 0,
+                "class_MUSIC": 4,
+                "class_ENT": 8,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-04": {
+            "total_articles": 617,
+            "class_counts": {
+                "class_MENTION": 17,
+                "class_BAD": 597,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 3,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-05": {
+            "total_articles": 8,
+            "class_counts": {
+                "class_MENTION": 8,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-06": {
+            "total_articles": 16,
+            "class_counts": {
+                "class_MENTION": 5,
+                "class_BAD": 7,
+                "class_GOOD": 0,
+                "class_MUSIC": 3,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2020-07": {
+            "total_articles": 178,
+            "class_counts": {
+                "class_MENTION": 93,
+                "class_BAD": 81,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 4,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-08": {
+            "total_articles": 54,
+            "class_counts": {
+                "class_MENTION": 46,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 8,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-09": {
+            "total_articles": 5,
+            "class_counts": {
+                "class_MENTION": 3,
+                "class_BAD": 2,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-10": {
+            "total_articles": 35,
+            "class_counts": {
+                "class_MENTION": 15,
+                "class_BAD": 5,
+                "class_GOOD": 7,
+                "class_MUSIC": 1,
+                "class_ENT": 7,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-11": {
+            "total_articles": 25,
+            "class_counts": {
+                "class_MENTION": 18,
+                "class_BAD": 7,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2020-12": {
+            "total_articles": 10,
+            "class_counts": {
+                "class_MENTION": 6,
+                "class_BAD": 3,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-01": {
+            "total_articles": 139,
+            "class_counts": {
+                "class_MENTION": 14,
+                "class_BAD": 124,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2021-02": {
+            "total_articles": 30,
+            "class_counts": {
+                "class_MENTION": 29,
+                "class_BAD": 1,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-03": {
+            "total_articles": 208,
+            "class_counts": {
+                "class_MENTION": 11,
+                "class_BAD": 197,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-04": {
+            "total_articles": 6,
+            "class_counts": {
+                "class_MENTION": 3,
+                "class_BAD": 1,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-05": {
+            "total_articles": 11,
+            "class_counts": {
+                "class_MENTION": 5,
+                "class_BAD": 0,
+                "class_GOOD": 4,
+                "class_MUSIC": 2,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-06": {
+            "total_articles": 12,
+            "class_counts": {
+                "class_MENTION": 11,
+                "class_BAD": 1,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-07": {
+            "total_articles": 15,
+            "class_counts": {
+                "class_MENTION": 4,
+                "class_BAD": 11,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-08": {
+            "total_articles": 14,
+            "class_counts": {
+                "class_MENTION": 4,
+                "class_BAD": 5,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 5,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-09": {
+            "total_articles": 87,
+            "class_counts": {
+                "class_MENTION": 3,
+                "class_BAD": 81,
+                "class_GOOD": 0,
+                "class_MUSIC": 3,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-10": {
+            "total_articles": 116,
+            "class_counts": {
+                "class_MENTION": 15,
+                "class_BAD": 96,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 5,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-11": {
+            "total_articles": 66,
+            "class_counts": {
+                "class_MENTION": 38,
+                "class_BAD": 28,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2021-12": {
+            "total_articles": 45,
+            "class_counts": {
+                "class_MENTION": 6,
+                "class_BAD": 33,
+                "class_GOOD": 0,
+                "class_MUSIC": 5,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-01": {
+            "total_articles": 24,
+            "class_counts": {
+                "class_MENTION": 15,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 8,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-02": {
+            "total_articles": 25,
+            "class_counts": {
+                "class_MENTION": 16,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 9,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-03": {
+            "total_articles": 37,
+            "class_counts": {
+                "class_MENTION": 19,
+                "class_BAD": 3,
+                "class_GOOD": 0,
+                "class_MUSIC": 13,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-04": {
+            "total_articles": 33,
+            "class_counts": {
+                "class_MENTION": 30,
+                "class_BAD": 3,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-05": {
+            "total_articles": 14,
+            "class_counts": {
+                "class_MENTION": 8,
+                "class_BAD": 0,
+                "class_GOOD": 1,
+                "class_MUSIC": 0,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 3
+            }
+        }
+    },
+    {
+        "2022-06": {
+            "total_articles": 7,
+            "class_counts": {
+                "class_MENTION": 4,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 2,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-07": {
+            "total_articles": 70,
+            "class_counts": {
+                "class_MENTION": 18,
+                "class_BAD": 8,
+                "class_GOOD": 0,
+                "class_MUSIC": 44,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-08": {
+            "total_articles": 43,
+            "class_counts": {
+                "class_MENTION": 38,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 5,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-09": {
+            "total_articles": 9,
+            "class_counts": {
+                "class_MENTION": 7,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 1,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-10": {
+            "total_articles": 122,
+            "class_counts": {
+                "class_MENTION": 120,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 1,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-11": {
+            "total_articles": 72,
+            "class_counts": {
+                "class_MENTION": 27,
+                "class_BAD": 15,
+                "class_GOOD": 0,
+                "class_MUSIC": 23,
+                "class_ENT": 7,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2022-12": {
+            "total_articles": 11,
+            "class_counts": {
+                "class_MENTION": 8,
+                "class_BAD": 1,
+                "class_GOOD": 2,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-01": {
+            "total_articles": 50,
+            "class_counts": {
+                "class_MENTION": 18,
+                "class_BAD": 15,
+                "class_GOOD": 0,
+                "class_MUSIC": 9,
+                "class_ENT": 8,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-02": {
+            "total_articles": 47,
+            "class_counts": {
+                "class_MENTION": 16,
+                "class_BAD": 29,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-03": {
+            "total_articles": 10,
+            "class_counts": {
+                "class_MENTION": 7,
+                "class_BAD": 2,
+                "class_GOOD": 0,
+                "class_MUSIC": 1,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-04": {
+            "total_articles": 84,
+            "class_counts": {
+                "class_MENTION": 15,
+                "class_BAD": 43,
+                "class_GOOD": 8,
+                "class_MUSIC": 1,
+                "class_ENT": 16,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2023-05": {
+            "total_articles": 23,
+            "class_counts": {
+                "class_MENTION": 10,
+                "class_BAD": 6,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 7,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-06": {
+            "total_articles": 20,
+            "class_counts": {
+                "class_MENTION": 8,
+                "class_BAD": 1,
+                "class_GOOD": 2,
+                "class_MUSIC": 0,
+                "class_ENT": 8,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2023-07": {
+            "total_articles": 34,
+            "class_counts": {
+                "class_MENTION": 13,
+                "class_BAD": 18,
+                "class_GOOD": 1,
+                "class_MUSIC": 0,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-08": {
+            "total_articles": 6,
+            "class_counts": {
+                "class_MENTION": 5,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 1,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-09": {
+            "total_articles": 3,
+            "class_counts": {
+                "class_MENTION": 2,
+                "class_BAD": 1,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-10": {
+            "total_articles": 14,
+            "class_counts": {
+                "class_MENTION": 14,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-11": {
+            "total_articles": 29,
+            "class_counts": {
+                "class_MENTION": 10,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 16,
+                "class_ENT": 3,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2023-12": {
+            "total_articles": 37,
+            "class_counts": {
+                "class_MENTION": 6,
+                "class_BAD": 20,
+                "class_GOOD": 0,
+                "class_MUSIC": 5,
+                "class_ENT": 6,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-01": {
+            "total_articles": 17,
+            "class_counts": {
+                "class_MENTION": 10,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 7,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-02": {
+            "total_articles": 11,
+            "class_counts": {
+                "class_MENTION": 9,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 1,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-03": {
+            "total_articles": 10,
+            "class_counts": {
+                "class_MENTION": 10,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-04": {
+            "total_articles": 2,
+            "class_counts": {
+                "class_MENTION": 1,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-05": {
+            "total_articles": 29,
+            "class_counts": {
+                "class_MENTION": 1,
+                "class_BAD": 10,
+                "class_GOOD": 8,
+                "class_MUSIC": 2,
+                "class_ENT": 8,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-06": {
+            "total_articles": 5,
+            "class_counts": {
+                "class_MENTION": 3,
+                "class_BAD": 1,
+                "class_GOOD": 0,
+                "class_MUSIC": 0,
+                "class_ENT": 1,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-07": {
+            "total_articles": 43,
+            "class_counts": {
+                "class_MENTION": 14,
+                "class_BAD": 6,
+                "class_GOOD": 0,
+                "class_MUSIC": 23,
+                "class_ENT": 0,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-08": {
+            "total_articles": 45,
+            "class_counts": {
+                "class_MENTION": 10,
+                "class_BAD": 9,
+                "class_GOOD": 0,
+                "class_MUSIC": 12,
+                "class_ENT": 13,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 1
+            }
+        }
+    },
+    {
+        "2024-09": {
+            "total_articles": 31,
+            "class_counts": {
+                "class_MENTION": 1,
+                "class_BAD": 6,
+                "class_GOOD": 0,
+                "class_MUSIC": 8,
+                "class_ENT": 16,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    },
+    {
+        "2024-10": {
+            "total_articles": 37,
+            "class_counts": {
+                "class_MENTION": 19,
+                "class_BAD": 0,
+                "class_GOOD": 0,
+                "class_MUSIC": 16,
+                "class_ENT": 2,
+                "class_CONTRACT": 0,
+                "class_AD": 0,
+                "class_RIP": 0,
+                "class_NO": 0
+            }
+        }
+    }
+]
