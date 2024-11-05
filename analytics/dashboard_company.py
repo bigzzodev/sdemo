@@ -114,7 +114,6 @@ def _get_reasons(json_data, target_date, class_type):
                 return reasons[class_type]
     return []
 
-
 # ------------------------------------------------------------------------------------------------------------------------
 def _get_hashtags(json_data, target_date, class_type):
     if class_type == 'class_MENTION':
