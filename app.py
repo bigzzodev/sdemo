@@ -28,6 +28,16 @@ if __name__ == '__main__':
     # page_icon=":chart_with_upwards_trend:
     st.set_page_config(page_icon = ':sparkles:', page_title = 'sdemo', layout = 'wide',)
 
+    hide_streamlit_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        footer {visibility: hidden;}
+        </style>
+        """
+
+    st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
 
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
