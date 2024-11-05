@@ -349,7 +349,7 @@ def day_dashboard(_company, day_data, _head):
 
     st.error('NEWS AGENCIES', icon="📄")
     agency_list = _get_news_agencies(day_data, dname)
-    with st.expander("이 기사를 게재한 언론사 리스트:"):
+    with st.expander(f"\"{_head}\" 에 위 기사들을 게재한 언론사 리스트:"):
         for key, value in agency_list.items():
             st.write(f'{key} ({value})')
     st.divider()
