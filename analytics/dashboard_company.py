@@ -231,12 +231,15 @@ def all_dashboard_company(_company):
         col9.metric("AD 관련기사", _fnumber(820) + " 개", "")
         col10.metric("NO 관련기사", _fnumber(20193) + " 개", "")
     with tab2:
-        st.markdown(f"<h4><span style='font-size:20px;'>설명</span></h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4><span style='font-size:20px; color:gray;'>시스템 설명</span></h4>", unsafe_allow_html=True)
         # db 와 다른점... 검색엔진과 다른점....등등
-        st.write('국내 언론에서 "삼성생명" 의 기사를 파악하여, 전략적으로 사용할수 있도록 데모를 만들어 보았습니다.')
-        st.write('2020.01.01 부터 2024.11.04 까지의 "삼성생명"에 대한 국내 언론뉴스를 "빠짐없이 모두" 수집하여, llm 을 통한 카테코리 분류, 요약, 키워드 추출, 통계, 분석 시스템 입니다.')
+        st.write('지원자: 김동주 (KIM DONGJOO)')
+        st.write('')
+        st.write('국내 언론에서 "삼성생명" 의 기사를 파악하여, 인사이트 도출과 전략수립에 사용할수 있도록 데모를 만들어 보았습니다.')
+        st.write('2020.01.01 부터 2024.11.04 까지의 "삼성생명"에 대한 국내 언론뉴스를 ""빠짐없이 모두"" 수집하여,')
+        st.write('llm (AI) 을 통한 카테코리 분류, 요약, 키워드 추출, 통계, 분석을 수행하는 시스템 입니다.')
     with tab3:
-        st.markdown(f"<h4><span style='font-size:20px;'>분류기준</span></h4>", unsafe_allow_html=True)
+        st.markdown(f"<h4><span style='font-size:20px; color:gray;'>분류기준</span></h4>", unsafe_allow_html=True)
         st.write('- **INSURANCE** : 삼성생명의 금융 상품이나 보험 상품에 관한 내용')
         st.write('- **BUSINESS** : 삼성생명의 경영 활동이나 실적과 관련된 내용')
         st.write('- **ESG** : 삼성생명의 사회적 책임 활동이나 ESG(환경, 사회, 지배구조)와 관련된 내용')
