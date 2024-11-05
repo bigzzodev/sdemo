@@ -15,7 +15,7 @@ def main2():
     with st.sidebar:
         st.divider()
         st.subheader("자동 분석 리포팅 생성")
-        st.caption("아래 리포팅은 사람의 개입없이 매일 동일한시간에 자동으로 :blue[주가챠트를 캡쳐]하여 :blue[기술적 분석 리포팅 생성] 하는 예제 입니다")
+        st.caption("아래 리포팅은 사람의 개입없이 매일 동일한시간에 자동으로 :blue[주가챠트 화면을 캡쳐]하여 :blue[기술적 분석 리포팅 생성] 하는 예제 입니다")
         pdf_file_path = "./sdemo_sample.pdf"
         # PDF 파일을 바이너리로 읽기
         with open(pdf_file_path, "rb") as f:
