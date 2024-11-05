@@ -33,8 +33,3 @@ if __name__ == '__main__':
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
     main()
-
-
-
-        #     singer_opt = list(ST_ANALYTICS.keys())
-        # selected_singer = st.selectbox(label="회사를 선택하세요", options=singer_opt,)

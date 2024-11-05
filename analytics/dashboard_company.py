@@ -185,6 +185,8 @@ def all_dashboard_company(_company):
         st.markdown(f"<h4><span style='font-size:20px; color:gray;'>시스템 설명</span></h4>", unsafe_allow_html=True)
         # db 와 다른점... 검색엔진과 다른점....등등
         st.write('지원자: 김동주 (KIM DONGJOO)')
+        st.write('이메일: encert@naver.com')
+        st.write('')
         st.write('')
         st.write('국내 언론에서 "삼성생명" 의 기사를 파악하여, 인사이트 도출과 전략수립, 리스크관리 그리고 경쟁사 비교등에 사용할수 있도록 데모를 만들어 보았습니다.')
         st.write('2020.01.01 부터 2024.11.04 까지의 "삼성생명"에 대한 국내 언론뉴스를 ""빠짐없이 모두"" 수집하여,')
@@ -226,7 +228,7 @@ def all_dashboard_company(_company):
                  "params.dataIndex, params.dataType, params.data, params.color, params.info ]}",
         "legendselectchanged": "function(params) { return ['legendselectchanged', params.selected]; }",
     }
-    st.success('자세히 보기를 원하는 "년도"를 클릭하세요', icon="✅")
+    st.success('자세히 보기를 원하는 "년도"를 클릭하세요', icon="📌")
     # Adjust the columns to align buttons as desired
     spacer_col, clear_col, all_col = st.columns([0.43, 0.05, 0.52], gap="small")
     with all_col:
@@ -282,7 +284,7 @@ def year_dashboard(_company, _selected_year, susu):
         "legendselectchanged": "function(params) { return ['legendselectchanged', params.selected]; }",
     }
 
-    st.success('자세히 보기를 원하는 "월"을 클릭하세요', icon="✅")
+    st.success('자세히 보기를 원하는 "월"을 클릭하세요', icon="📌")
     s = st_echarts(options=options, events=events, height="500px", key="key_year_dashboard")
     st.divider()
 
@@ -323,7 +325,7 @@ def month_dashboard(_company, susu, _selected_year, _month):
         "legendselectchanged": "function(params) { return ['legendselectchanged', params.selected]; }",
     }
 
-    st.success('자세히 보기를 원하는 "날짜"를 클릭하세요', icon="✅")
+    st.success('자세히 보기를 원하는 "날짜"를 클릭하세요', icon="📌")
     s = st_echarts(options=options, events=eventsx, height="500px", key="key_month_dashboard")
     st.divider()
 
@@ -373,7 +375,7 @@ def day_dashboard(_company, day_data, _head):
     if "MENTION" in selected_classes:
         class_dashboard(day_data, dname, "MENTION")
 
-    st.info('NEWS AGENCIES')
+    st.error('NEWS AGENCIES', icon="📄")
     agency_list = _get_news_agencies(day_data, dname)
     with st.expander("이 기사를 게재한 언론사 리스트:"):
         for key, value in agency_list.items():
