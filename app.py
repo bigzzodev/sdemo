@@ -23,7 +23,7 @@ def main2():
         st.download_button(
             label="Download PDF",
             data=pdf_content,
-            file_name="sample.pdf",
+            file_name="sdemo_sample.pdf",
             mime="application/pdf"
         )
 
