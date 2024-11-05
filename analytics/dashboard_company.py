@@ -18,6 +18,9 @@ from datetime import date
 from PIL import Image
 from .get_weather import *
 
+def _fnumber(num):
+    return "{:,}".format(num)
+
 # ------------------------------------------------------------------------------------------------------------------------
 def _generate_data_list(json_data):
     # 클래스 이름 정의
@@ -57,7 +60,7 @@ def _extract_year_data(_year, _data):
 def _get_total_articles(json_data, target_month):
     for month_data in json_data:
         if target_month in month_data:
-            return month_data[target_month].get("total_articles", 0)  # 값이 없으면 0 반환
+            return month_data[target_month].get("total_articles", 0)
     return 0  # 대상 월이 없으면 0 반환
 
 # ------------------------------------------------------------------------------------------------------------------------
@@ -65,7 +68,7 @@ def _get_all_articles(json_data, target_year):
     # JSON 데이터 탐색
     for year_data in json_data:
         if target_year in year_data:
-            return year_data[target_year].get("total_articles", 0)  # 값이 없으면 0 반환
+            return year_data[target_year].get("total_articles", 0)
     return 0  # 대상 연도가 없으면 0 반환
 
 # ------------------------------------------------------------------------------------------------------------------------
@@ -208,29 +211,31 @@ def all_dashboard_company2(_singer):
     #Manually refresh button
     st.button("Run me manually")
 
-
 # ------------------------------------------------------------------------------------------------------------------------
 def all_dashboard_company(_company):
     st.subheader(f'분석할 회사 : {_company}')
-    # with st.expander('분류기준 설명'):
-    #     st.write('- INSURANCE : 삼성생명의 금융 상품이나 보험 상품에 관한 내용')
-    #     st.write('- BUSINESS : 삼성생명의 경영 활동이나 실적과 관련된 내용')
-    #     st.write('- ESG : 삼성생명의 사회적 책임 활동이나 ESG(환경, 사회, 지배구조)와 관련된 내용')
-    #     st.write('- COMPLIANCE : 삼성생명과 관련된 법적 문제나 규제 이슈에 대한 내용')
-    #     st.write('- ORGANIZATION : 삼성생명의 인사 이동이나 조직 개편과 관련된 내용')
-    #     st.write('- MARKET : 삼성생명의 보험 및 금융 시장에서의 위치나 경쟁 상황과 관련된 내용')
-    #     st.write('- TECHINNOV : 삼성생명의 기술 혁신이나 디지털 전환과 관련된 내용')
-    #     st.write('- SPORTS : 삼성생명 소속 스포츠 구단이나, 스포츠 육성 및 저변확대에 관련된 내용')
-    #     st.write('- AD : 삼성생명의 광고 캠페인이나 홍보 활동과 관련된 내용')
-    #     st.write('- NO : 삼성생명과 관련된 특정 카테고리에 포함되지 않는 내용')
-
-    tab1, tab2 = st.tabs(["설명", "분류기준 설명"])
-
+    tab1, tab2, tab3 = st.tabs(["전체 뉴스 통계", "시스템에 대한 설명", "분류기준 설명"])
     with tab1:
-        st.markdown(f"<h4><span style='font-size:20px;'>설명</span></h4>", unsafe_allow_html=True)
-        st.write('2020 부터 현재까지의 "삼성생명"에 대한 언론뉴스를 모두 모아, llm 을 통한 통계, 분석, 요약, 키워드추출 수행')
-
+        col_a , _ = st.columns(2)
+        col_a.metric("총 뉴스 기사수 ( 2020.01.01 ~ 2024.11.04 ) ", _fnumber(149279) + " 개", "")
+        col1, col2, col3, col4, col5,= st.columns(5)
+        col1.metric("INSURANCE 관련기사", _fnumber(11213) + " 개", "")
+        col2.metric("BUSINESS 관련기사", _fnumber(15658) + " 개", "")
+        col3.metric("ESG 관련기사", _fnumber(9374) + " 개", "")
+        col4.metric("COMPLIANCE 관련기사", _fnumber(16917) + " 개", "")
+        col5.metric("ORGANIZATION 관련기사", _fnumber(8903) + " 개", "")
+        col6, col7, col8, col9, col10 = st.columns(5)
+        col6.metric("MARKET 관련기사", _fnumber(10903) + " 개", "")
+        col7.metric("TECHINNOV 관련기사", _fnumber(4016) + " 개", "")
+        col8.metric("SPORTS 관련기사", _fnumber(51282) + " 개", "")
+        col9.metric("AD 관련기사", _fnumber(820) + " 개", "")
+        col10.metric("NO 관련기사", _fnumber(20193) + " 개", "")
     with tab2:
+        st.markdown(f"<h4><span style='font-size:20px;'>설명</span></h4>", unsafe_allow_html=True)
+        # db 와 다른점... 검색엔진과 다른점....등등
+        st.write('국내 언론에서 "삼성생명" 의 기사를 파악하여, 전략적으로 사용할수 있도록 데모를 만들어 보았습니다.')
+        st.write('2020.01.01 부터 2024.11.04 까지의 "삼성생명"에 대한 국내 언론뉴스를 "빠짐없이 모두" 수집하여, llm 을 통한 카테코리 분류, 요약, 키워드 추출, 통계, 분석 시스템 입니다.')
+    with tab3:
         st.markdown(f"<h4><span style='font-size:20px;'>분류기준</span></h4>", unsafe_allow_html=True)
         st.write('- **INSURANCE** : 삼성생명의 금융 상품이나 보험 상품에 관한 내용')
         st.write('- **BUSINESS** : 삼성생명의 경영 활동이나 실적과 관련된 내용')
@@ -242,10 +247,7 @@ def all_dashboard_company(_company):
         st.write('- **SPORTS** : 삼성생명 소속 스포츠 구단이나, 스포츠 육성 및 저변확대에 관련된 내용')
         st.write('- **AD** : 삼성생명의 광고 캠페인이나 홍보 활동과 관련된 내용')
         st.write('- **NO** : 삼성생명과 관련된 특정 카테고리에 포함되지 않는 내용')
-
     st.divider()
-
-
 
     fmname = f'./jsondata/year_{_company}.json'
     with open(fmname, "r", encoding="utf-8") as file:
@@ -286,10 +288,8 @@ def all_dashboard_company(_company):
             # Reset main_dashboard display flag
             st.session_state['show_main_dashboard'] = False  # Only reset show_main_dashboard
 
-
     s = st_echarts(options=options, events=events, height="500px", key="key_all_dashboard")
     st.divider()
-
     if s is not None:
         if s[0] == 'legendselectchanged':
             st.session_state['legend_selected'] = s[1]
@@ -305,7 +305,7 @@ def all_dashboard_company(_company):
 # ------------------------------------------------------------------------------------------------------------------------
 def year_dashboard(_company, _selected_year, susu):
     head = f'{_selected_year}년'
-    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {susu} 개 )</span></h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {_fnumber(susu)} 개 )</span></h3>", unsafe_allow_html=True)
     names = SX_CLASS_NAME
     fmname = f'./jsondata/month_{_company}.json'
     with open(fmname, "r", encoding="utf-8") as file:
@@ -347,7 +347,7 @@ def year_dashboard(_company, _selected_year, susu):
 # ------------------------------------------------------------------------------------------------------------------------
 def month_dashboard(_company, susu, _selected_year, _month):
     head = f'{_selected_year}년 {_month}'
-    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {susu} 개 )</span></h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3>{head} - <span style='font-size:20px;'>( 전체 기사수 {_fnumber(susu)} 개 )</span></h3>", unsafe_allow_html=True)
     names = SX_CLASS_NAME
     fdname = f'./jsondata/day_{_company}_{_selected_year}.json'
     with open(fdname, "r", encoding="utf-8") as file:
@@ -421,7 +421,7 @@ def day_dashboard(_company, day_data, _head):
 
     st.info('NEWS AGENCIES')
     agency_list = _get_news_agencies(day_data, dname)
-    with st.expander("언론사 리스트:"):
+    with st.expander("이 기사를 게재한 언론사 리스트:"):
         for key, value in agency_list.items():
             st.write(f'{key} ({value})')
     st.divider()
@@ -433,7 +433,7 @@ def class_dashboard(day_data, _dname, _class):
         return
 
     total = _get_total(day_data, _dname)
-    st.info(f'**{_class} ( {class_count} 개 / 총 {total} )**')
+    st.info(f'**{_class}** ( {class_count} 개 / 총기사수 {total} 개)')
 
     #####################################################################
     hashtags = _get_hashtags(day_data, _dname, f'class_{_class}')
@@ -461,9 +461,6 @@ def class_dashboard(day_data, _dname, _class):
     #         st.write(_idx)
 
     reason_list = _get_reasons(day_data, _dname, f'class_{_class}')
-
-
-
     with st.expander("URLS:"):
         for idx, url in enumerate(url_list):
             # Create a unique key for each URL button by including class and date
