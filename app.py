@@ -44,6 +44,17 @@ if __name__ == '__main__':
                 """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+    #----------------------Hide Streamlit footer----------------------------
+    hide_st_style = """
+
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+
+    """
+    st.markdown(hide_st_style, unsafe_allow_html=True)
+    #--------------------------------------------------------------------
+
 
 
     with open('style.css') as f:
