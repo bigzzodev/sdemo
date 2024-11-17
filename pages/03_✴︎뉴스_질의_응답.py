@@ -305,6 +305,23 @@ def display():
         clear_btn = st.button('대화 초기화')
         # option = st.selectbox('프롬프트를 선택해 주세요', ('기본모드', 'SNS 게시글', '요약'), index=0)
 
+    with st.sidebar:
+        st.divider()
+        st.subheader("자동 분석 리포팅 생성")
+        st.caption("아래 리포팅은 사람의 개입없이 매일 동일한시간에 자동으로 :blue[주가챠트 화면을 캡쳐]하여 :blue[기술적 분석 리포팅 생성] 하는 예제 입니다")
+        pdf_file_path = "./sdemo_sample.pdf"
+        # PDF 파일을 바이너리로 읽기
+        with open(pdf_file_path, "rb") as f:
+            pdf_content = f.read()
+        st.download_button(
+            label="Download PDF",
+            data=pdf_content,
+            file_name="sdemo_sample.pdf",
+            mime="application/pdf"
+        )
+
+
+
     st.subheader(f'"{selected}" 에 대해 질문하기')
     st.divider()
     display_main(selected, clear_btn)
