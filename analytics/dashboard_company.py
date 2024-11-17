@@ -145,6 +145,7 @@ def _is_skip_class(_json_data, _target, _class):
 # ------------------------------------------------------------------------------------------------------------------------
 def all_dashboard_company(_company):
     st.subheader(f'분석할 회사 : {_company}')
+    st.divider()
     # tab1, tab2, tab3 = st.tabs(["전체 뉴스 통계", "시스템에 대한 설명", "분류기준 설명"])
     # with tab1:
     #     col_a , _ = st.columns(2)

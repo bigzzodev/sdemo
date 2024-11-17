@@ -117,7 +117,7 @@ def page_header():
     # if not os.getenv("OPENAI_API_KEY"):
     #     st.info('Enter an OpenAI API Key to continue')
     #     st.stop()
-    st.divider()
+    # st.divider()
 
 # ---------------------------------------------------------------------------------------
 def _add_message(role, content, messages_key):
@@ -306,6 +306,7 @@ def display():
         # option = st.selectbox('프롬프트를 선택해 주세요', ('기본모드', 'SNS 게시글', '요약'), index=0)
 
     st.subheader(f'"{selected}" 에 대해 질문하기')
+    st.divider()
     display_main(selected, clear_btn)
 
 # ---------------------------------------------------------------------------------------
@@ -322,7 +323,6 @@ if __name__ == '__main__':
 
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
-
 
     display()
     env.langsmith(ST_TRACE)
