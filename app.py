@@ -43,6 +43,12 @@ def main1():
         st.caption('국내 언론에서 "삼성생명" 의 기사를 파악하여, 인사이트 도출과 전략수립, 리스크 관리 그리고 경쟁사 비교등에 사용할수 있도록 데모를 만들어 보았습니다.')
         st.caption('2020.01.01 부터 2024.11.04 까지의 "삼성생명"에 대한 국내 언론뉴스를 ""빠짐없이 모두"" 수집하여, llm (AI) 을 통한 카테코리 분류, 요약, 키워드 추출, 통계, 분석을 수행하는 시스템 입니다.')
 
+        st.write('- **Brand monitoring** : 미디어에서 브랜드가 어떻게 다루어지고 있는지 추적 및 분석.')
+        st.write('- **Competitor analysis** : 경쟁사의 활동과 전략을 모니터링.')
+        st.write('- **Market research** : 소비자 트렌드와 시장 심리에 대한 데이터 수집.')
+        st.write('- **News aggregation** : 기업의 뉴스기반 지식 데이터 수집.')
+        st.write('- **Data analysis** : 정치, 경제, 사회 문제 등 다양한 주제에 대한 연구 기반 구축.')
+
 
     with tab3:
         st.markdown(f"<h4><span style='font-size:20px; color:gray;'>분류기준</span></h4>", unsafe_allow_html=True)
